@@ -484,14 +484,14 @@ mark,
 }
 
 .img-fluid {
-  max-width: 40%;
-  height: auto;
+  width: 40%;
+  height: 40%;
+  vertical-align: text-bottom;
 }
 .img-fluid-1{
   max-width: 100%;
   height: auto;
 }
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -9592,7 +9592,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
