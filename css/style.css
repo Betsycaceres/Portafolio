@@ -169,7 +169,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color:#4db696;
+  background-color: #4db696;
   margin: 0 auto;
 }
 
@@ -198,7 +198,6 @@ a:hover {
 .box-pl2 {
   padding-left: 2rem;
 }
-
 
 /*------/ Socials /------*/
 
@@ -570,7 +569,6 @@ img {
   opacity: 1;
 } */
 
-
 .navbar-toggler span:nth-child(3) {
   transition: -webkit-transform 0.35s ease-in-out;
   transition: transform 0.35s ease-in-out;
@@ -697,9 +695,9 @@ img {
   color: #4e4e4e;
 }
 .sizeSkill {
-width: 50%;
-margin-top: 7%;
-margin-right: auto;
+  width: 50%;
+  margin-top: 7%;
+  margin-right: auto;
 }
 
 .skill-mf .progress {
@@ -757,7 +755,7 @@ margin-right: auto;
   height: 75%;
   vertical-align: text-bottom;
 }
-.img-perfil{
+.img-perfil {
   max-width: 66%;
   height: auto;
   margin-left: 77px;
@@ -819,14 +817,14 @@ margin-right: auto;
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
   margin-bottom: 0;
 }
 
 .card-blog .card-title {
   font-size: 1.3rem;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 .card-blog .card-description {
@@ -926,7 +924,6 @@ margin-right: auto;
   border-color: #4db696;
 }
 
-
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -1021,8 +1018,13 @@ footer .credits a {
   font-family: inherit;
 }
 
-#service, #service {
-  background: linear-gradient(rgba(239, 232, 232, 0.9), rgba(255, 255, 255, 0.96)), url(../img/work-3.jpg) fixed center center;
+#service,
+#service {
+  background: linear-gradient(
+      rgba(239, 232, 232, 0.9),
+      rgba(255, 255, 255, 0.96)
+    ),
+    url(../img/work-3.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -1163,8 +1165,18 @@ footer .credits a {
   background: #17a2b8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -1175,7 +1187,6 @@ footer .credits a {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
-
 
 /* ================================
 Bottom widget
